@@ -19,6 +19,6 @@ test("String length more than 10", () => {
     );
 });
 
-test("Reversed string:", () => {
+test("Reversed String:", () => {
   expect(reverseString("chuaindia")).toBe("aidniauhc");
 });
