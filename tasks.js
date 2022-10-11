@@ -1,5 +1,7 @@
 // Tasks
 
+// Task 1
+
 const stringLength = (string) =>
 {
     const stringLength = string.length;
@@ -12,5 +14,14 @@ const stringLength = (string) =>
         }
     } 
     return stringLength;
-}
+};
+
+// Task 2
+
+const reverseString = (string) => string.split(" ").reverse().join(" ");
+
+
+// Task 3
+
+
 
