@@ -33,5 +33,11 @@ const Calculator = new calculator;
 
 // Task 4
 
+const capitalize = (string) => string.charAt(0).toUpperCase() + string.slice(1);
+
+// Export to testfunction
+
+module.exports = {stringLength, reverseString, Calculator, capitalize}; 
+
 
 
