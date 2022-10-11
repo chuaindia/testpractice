@@ -2,7 +2,10 @@ import {
     stringLength,
     reverseString,
     Calculator,
+    capitalize,
        } from "./tasks.js";
+
+// Test for string length and minimum and maximum number of characters
 
 test("String Length:", () => {
     expect(stringLength("Hello World!")).toBe(12);
@@ -20,9 +23,13 @@ test("String length more than 10", () => {
     );
 });
 
+// Test for reverse string
+
 test("Reversed String:", () => {
   expect(reverseString("chuaindia")).toBe("aidniauhc");
 });
+
+// Test for reverse calculations : Add, Subtract, Multiply and Division
 
 describe("Calculator functions:", () => {
    test("Add numbers:", () => {
@@ -45,6 +52,12 @@ describe("Calculator functions:", () => {
         expect(Calculator.divide(32, 4)).toBe(8);
         expect(Calculator.divide(42, 6)).toBe(7);
     });
+});
+
+// Test for first character capitalization
+
+test("First Character Capitalized: ", () => {
+  expect(capitalize("chuaindia")).toBe("Chuaindia");
 });
     
     
