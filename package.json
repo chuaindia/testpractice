@@ -1,0 +1,23 @@
+{
+    "name": "jest-testing",
+    "version": "1.0.0",
+    "description": "Unit Testing with Jest library",
+    "main": "tasks.js",
+    "scripts": {
+      "test": "jest"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/chuaindia/testpractice.git"
+    },
+    "author": "Tanusri Ghosh",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/chuaindia/testpractice/issues"
+    },
+    "homepage": "https://github.com/chuaindia/testpractice#readme",
+    "devDependencies": {
+      "jest": "^27.4.3"
+    }
+  }
+  
